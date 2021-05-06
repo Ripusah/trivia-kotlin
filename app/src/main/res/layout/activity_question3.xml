@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".ui.Question3Activity">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/textview"
+        android:text="@string/whats_are_the_colors"/>
+
+        <CheckBox
+            android:id="@+id/cb_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/white"/>
+        <CheckBox
+            android:id="@+id/cb_yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yellow"/>
+        <CheckBox
+            android:id="@+id/cb_orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/orange"/>
+        <CheckBox
+            android:id="@+id/cb_green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/green"/>
+    <Button
+        android:id="@+id/btn_next1"
+        android:layout_below="@+id/rg_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next"/>
+
+
+</LinearLayout>
